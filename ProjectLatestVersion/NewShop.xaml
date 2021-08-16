@@ -1,0 +1,21 @@
+﻿<Window x:Class="ShoppingSystem.NewShop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShoppingSystem"
+        mc:Ignorable="d"
+        Title="NewShop" Height="450" Width="800">
+    <Grid Background="#FF27EFD7" OpacityMask="#FF27EFD7">
+        <Button Content="סריקת קוד" HorizontalAlignment="Left" Margin="549,47,0,0" VerticalAlignment="Top" Width="196" Height="47" FontSize="22" FontWeight="Bold"/>
+        <Button Content="סיום קניה" HorizontalAlignment="Left" Margin="549,281,0,0" VerticalAlignment="Top" Width="196" Height="47" FontSize="22" FontWeight="Bold"/>
+        <ListView HorizontalAlignment="Left" Height="300" Margin="43,47,0,0" VerticalAlignment="Top" Width="454" SelectionChanged="ListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>
